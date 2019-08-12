@@ -30,4 +30,6 @@ urlpatterns = [
     path('hello/<str:name>/',views.hello),
     path('lotto/',views.lotto),
     path('dinner/', views.dinner),
+    path('cube/<int:number>/', views.cube), # path의 변수의 이름과 views에 인자 이름이 동일해야한다. keyword 인자로 넘기기 때문에
+    path('about/<str:name>/<int:age>/', views.about),
 ]
