@@ -123,3 +123,9 @@ $ python manage.py runserver
 ```
 
 `localhost:8000`에서 확인 해보자!
+
+
+
+template 링크
+
+https://docs.djangoproject.com/en/2.2/ref/templates/language/
